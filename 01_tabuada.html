@@ -7,11 +7,20 @@
     */
 
     //Entrada
-
+    let numero = Number(prompt(`Qual número da tabuada você deseja calcular?`))
 
     //Processamento
+    let tabuada = [];
+    let multiplicador =  [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let resultados = [];
+    let resultado = [];
 
-
+    for(let item of  multiplicador){
+        resultado = (numero * tabuada);
+        resultados.push(resultado)
+    }
     //Saída
-    
+    document.write(`${resultado}`);
+
+
 </script>
